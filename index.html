@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deependra Sharma | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="Style.css">
+</head>
+   <link rel="icon" href="assets/favicon.ico" />
+<style>
+  body {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+
+<body class="bg-gray-100 text-gray-800 font-sans">
+<div id="page-loader" class="fixed inset-0 bg-white flex items-center justify-center z-50 transition-opacity duration-1000">
+  <div class="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500">
+  </div>
+</div>
+
+  <!-- Navbar -->
+  <header class="bg-white shadow fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Deependra</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:text-blue-500">Home</a>
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#skills" class="hover:text-blue-500">Skills</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section id="home" class="pt-24 pb-16 text-center bg-gradient-to-r from-blue-100 to-indigo-100">
+    <img src="Profile.jpg" alt="Profile" class="w-32 h-32 mx-auto rounded-full mb-4 shadow-lg" />
+    <h2 class="text-3xl font-bold mb-2">Hi, I'm Deependra Sharma 👋</h2>
+    <p class="text-lg text-gray-600">Web Developer | Data Analyst | Tech Enthusiast</p>
+    <div class="mt-4 space-x-4">
+      <a href="#projects" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">View Projects</a>
+      <a href="#contact" class="px-4 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-50">Contact Me</a>
+      <p class="text-lg text-gray-600"><span id="typing-text" class="font-medium text-blue-600"></span></p>
+
+    </div>
+  </section>
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto py-16 px-4">
+    <h2 class="text-2xl font-bold mb-4 text-center">About Me</h2>
+    <p class="text-gray-700 leading-relaxed text-center">
+      I am a passionate Web Developer and Data Analyst with experience in building responsive websites and analyzing complex data sets. I love creating impactful digital experiences and solving real-world problems through tech.
+    </p>
+  </section>
+  <!-- Projects -->
+  <section id="projects" class="bg-white py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold mb-10 text-center">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Card -->
+        <div class="bg-gray-100 rounded-xl shadow hover:shadow-lg transition p-4">
+          <img src="https://cdn.pixabay.com/photo/2016/10/22/00/15/spotify-1759471_1280.jpg" alt="Project" class="rounded-lg mb-3" />
+          <h3 class="text-xl font-semibold mb-2">Spotify Music Web</h3>
+          <p class="text-gray-600 mb-2">A Spotify-inspired music streaming site built with HTML, CSS, JS.</p>
+          <a href="#" class="text-blue-600 hover:underline">Live Demo</a>
+        </div>
+        <div class="bg-gray-100 rounded-xl shadow hover:shadow-lg transition p-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXfrgIFJSmqIsyeK6hfuXvoRz_V8S9izHwA&s" alt="Project" class="rounded-lg mb-3" />
+          <h3 class="text-xl font-semibold mb-2">Mental Health Care</h3>
+          <p class="text-gray-600 mb-2">A Mental Health Care site built with HTML, CSS, JS.</p>
+          <a href="#" class="text-blue-600 hover:underline">Live Demo</a>
+      </div>
+        <div class="bg-gray-100 rounded-xl shadow hover:shadow-lg transition p-4">
+          <img src="https://www.shutterstock.com/image-vector/taxi-icon-yellow-checkered-cab-260nw-2090678698.jpg" alt="Project" class="rounded-lg mb-3" />
+          <h3 class="text-xl font-semibold mb-2">5 Min Taxi</h3>
+          <p class="text-gray-600 mb-2">A 5 Min Taxi site built with HTML, CSS, JS.</p>
+          <a href="#" class="text-blue-600 hover:underline">Live Demo</a>
+        </div>
+        <div class="bg-gray-100 rounded-xl shadow hover:shadow-lg transition p-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4qmREusxxTfirFQcvJvGutSx3K-qM8zIOA&s" alt="Project" class="rounded-lg mb-3" />
+          <h3 class="text-xl font-semibold mb-2">NextEvent</h3>
+          <p class="text-gray-600 mb-2">A NextEvent site built with HTML, CSS, JS.</p>
+          <a href="#" class="text-blue-600 hover:underline">Live Demo</a>
+    </div>
+        <div class="bg-gray-100 rounded-xl shadow hover:shadow-lg transition p-4">
+          <img src="https://clearinfo.in/wp-content/uploads/2021/11/Interface-of-Class365-Student-record-management-system-1.png" alt="Project" class="rounded-lg mb-3" />
+          <h3 class="text-xl font-semibold mb-2"> Classe365 </h3>
+          <p class="text-gray-600 mb-2">A S Classe365 site built with HTML, CSS, JS.</p>
+          <a href="#" class="text-blue-600 hover:underline">Live Demo</a>
+        </div>
+        <div class="bg-gray-100 rounded-xl shadow hover:shadow-lg transition p-4">
+          <img src="https://user-images.githubusercontent.com/17488893/236649128-bf59156f-55e3-4cc0-bf8d-b11ed2aba2dc.png" alt="Project" class="rounded-lg mb-3" />
+          <h3 class="text-xl font-semibold mb-2">Fitness Tracker</h3>
+          <p class="text-gray-600 mb-2">A Fitness Tracker site built with HTML, CSS, JS.</p>
+          <a href="#" class="text-blue-600 hover:underline">Live Demo</a>
+      </div>
+  </section>
+  <!-- Skills -->
+  <section id="skills" class="bg-gray-100 py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6">Skills</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="bg-white px-4 py-2 rounded shadow">HTML</span>
+        <span class="bg-white px-4 py-2 rounded shadow">CSS</span>
+        <span class="bg-white px-4 py-2 rounded shadow">JavaScript</span>
+        <span class="bg-white px-4 py-2 rounded shadow">React</span>
+        <span class="bg-white px-4 py-2 rounded shadow">Python</span>
+        <span class="bg-white px-4 py-2 rounded shadow">SQL</span>
+        <span class="bg-white px-4 py-2 rounded shadow">Power BI</span>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+   <form id="contact-form" class="space-y-4 max-w-md mx-auto">
+  <input type="text" name="from_name" placeholder="Your Name" class="w-full px-4 py-2 border rounded" required />
+  <input type="email" name="from_email" placeholder="Your Email" class="w-full px-4 py-2 border rounded" required />
+  <textarea name="message" rows="5" placeholder="Your Message" class="w-full px-4 py-2 border rounded" required></textarea>
+  <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Send</button>
+</form>
+
+  <section id="contact" class="py-16 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+    <p class="text-gray-600 mb-6">Feel free to reach out via email or connect on social media.</p>
+    <div class="space-x-4">
+      <a href="deependrasharma995@gmail.com" class="text-blue-600 hover:underline">Email</a>
+      <a href="www.linkedin.com/in/deependra-sharma-305622322" target="_blank" rel="noopener" class="text-blue-600 hover:underline">LinkedIn</a>
+      <a href="https://github.com/yourgithub" target="_blank" rel="noopener" class="text-blue-600 hover:underline">GitHub</a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-white py-4 text-center text-gray-500 text-sm">
+    © 2025 Deependra Sharma. All rights reserved.
+    <button id="theme-toggle" class="text-sm text-blue-600 hover:underline">Toggle Theme</button>
+
+  </footer>
+   
+<!-- Use type="module" to allow JS imports -->
+<script type="module" src="script.js"></script>
+<!-- Load EmailJS SDK -->
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    emailjs.init("YOUR_PUBLIC_KEY"); // Replace this with your actual EmailJS public key
+  })();
+</script>
+
+
+</body>
+</html>
