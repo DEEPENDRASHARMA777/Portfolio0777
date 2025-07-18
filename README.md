@@ -21,7 +21,7 @@ This is my personal developer portfolio showcasing my skills, projects, and cont
 
 ## 🌐 Live Demo
 
-portfolio0777.netlify.app/ 
+[portfolio0777.netlify.app/ ](https://portfolio0777.netlify.app/)
 
 ## 📧 Contact
 
